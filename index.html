@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Card</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+      }
+
+      body {
+        background-color: #212529;
+        font-family: system-ui, -apple-system, Segoe UI, Roboto, Helvetica Neue,
+          Noto Sans, Liberation Sans, Arial, sans-serif, Apple Color Emoji,
+          Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+      }
+
+      .container {
+        width: 415px;
+        margin: auto;
+      }
+
+      .card {
+        border-radius: 8px;
+        padding: 30px;
+        margin: 50px auto;
+        background-color: white;
+        box-shadow: -19px 23px 12px -5px rgba(0, 0, 0, 0.38);
+        -webkit-box-shadow: -19px 23px 12px -5px rgba(0, 0, 0, 0.38);
+        -moz-box-shadow: -19px 23px 12px -5px rgba(0, 0, 0, 0.38);
+        box-sizing: border-box;
+      }
+
+      .card-banner {
+        background-image: url("https://transform-mpi.com/wp-content/uploads/2018/01/PELATIHAN-Manajemen-Proyek-Project-Management.png");
+        padding: 50px;
+        background-position: center;
+        background-size: cover;
+        border-radius: 8px;
+        text-align: center;
+        height: 100px;
+        box-shadow: 5px 5px 7px -2px rgba(0, 0, 0, 0.72);
+        -webkit-box-shadow: 5px 5px 7px -2px rgba(0, 0, 0, 0.72);
+        -moz-box-shadow: 5px 5px 7px -2px rgba(0, 0, 0, 0.72);
+        transition: all 0.4s;
+      }
+
+      .card-banner:hover {
+        padding: 53px;
+      }
+
+      .card-title {
+        margin: 9px 0;
+        /* font-size: 23px; */
+      }
+
+      .card-body p {
+        margin-bottom: 16px;
+      }
+
+      .tombol {
+        background-color: #212529;
+        padding: 6px 20px;
+        text-align: center;
+        border-radius: 4px;
+        color: white;
+        text-decoration: none;
+        transition: all 0.4s;
+      }
+
+      .tombol:hover {
+        opacity: 0.9;
+      }
+
+      hr {
+        margin-top: 15px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="card">
+        <div class="card-banner"></div>
+        <h1 class="card-title">Judul</h1>
+        <div class="card-body">
+          <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. At ipsum,
+            mollitia nobis minus accusantium modi. Deserunt ex vero laudantium
+            magni mollitia quaerat! Debitis quod laudantium reiciendis.
+          </p>
+          <a href="#" class="tombol">Lihat</a>
+          <hr />
+          <p>diposting oleh <a href="#">admin</a></p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
